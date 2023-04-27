@@ -325,7 +325,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    video_to_image(video_path=i, step=1, save_path=o)  # 视频拆帧
+    video_to_image(video_path=args.i, step=1, save_path=args.o)  # 视频拆帧
 
     # images_path = './images/ppelabt'
     # video = Video(images_path, video_format='avi')	# 实例化Video
